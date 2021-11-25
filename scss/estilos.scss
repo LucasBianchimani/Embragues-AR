@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+
+/* Background utilizadas */
+
+
+
+.fondoConsulta {
+    margin: 0;
+    padding: 0;
+    background: url(/images/consulta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondoEmpresa {
+    background-image: url(/images/fondos-de-pantalla-motos.jpg  );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Tipo de texto y alineado */
+
+.cajatexto {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    float: left;
+    text-align: right;
+}
+
+
+.cajatextocentrado {
+    text-align: center;
+    color: white;
+}
+
+.margen{
+    margin-bottom: 50px;
+}
+
+p {
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+main {
+    margin-top: 40px
+}
+footer {
+    margin-top: 40px;
+}
+/* Formulario y Nav*/
+
+.navegador {
+    color: black;
+    padding: 15px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+  }
+
+.formulario {
+    text-align: center;
+    line-height: 22px;
+    font-size: 22px;
+    font-style: italic;
+    color: cyan;
+}
+
+/*Contenedores*/
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedorImg {
+    border: yellowgreen;
+    border-style: solid;
+    width: 13.4%;
+}
+
+/*BEM*/
+.caja0{
+    background-color:dodgerblue ;
+    color: white;
+}
+.caja0__parrafo{
+    background-color: black;
+    text-align: right;
+}
+.caja0__text{
+   text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.caja1 {
+    background-color: black;
+}
+.caja__text{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+.caja2{
+    background-color: dodgerblue;
+}
+
+.caja2__zoom{
+    transition: 2s;
+  }
+.caja2__zoom:hover {  
+  transform: scale(1.2);
+  }
+  
+.caja2__text{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.caja2__bordes{
+    border: 1px solid red
+}
+
+.caja2__parrafo{
+font-size: 20px;
+font-family: cursive;
+color: white;
+margin-top: 20px;
+}
+.caja3{
+background-color: dodgerblue;
+}
+.caja3__tit{
+    background-color:dodgerblue ;
+    color: white;}
+
+.footer{
+    background-color: black;
+}
+.footer__tit{
+    background-color: dodgerblue;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer__contimg {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.footer__margen{
+ margin-top: 800px;
+}
