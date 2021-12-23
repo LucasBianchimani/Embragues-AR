@@ -13,10 +13,11 @@
 }
 
 .fondoEmpresa {
-   background-image: url(../images/fondos-de-pantalla-motos.jpg);
+    background-image: url(../images/fondos-de-pantalla-motos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Tipo de texto y alineado */
 
 .cajatexto {
@@ -33,7 +34,7 @@
     color: white;
 }
 
-.margen{
+.margen {
     margin-bottom: 50px;
 }
 
@@ -46,17 +47,19 @@ p {
 main {
     margin-top: 40px
 }
+
 footer {
     margin-top: 40px;
 }
+
 /* Formulario y Nav*/
 
 .navegador {
     color: black;
     padding: 15px 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-  }
+}
 
 .formulario {
     text-align: center;
@@ -65,16 +68,18 @@ footer {
     font-style: italic;
     color: cyan;
 }
-.maps{
+
+.maps {
     padding-top: 50px;
     text-align: center;
 }
 
-.flexImg{
-    display:flex;
+.flexImg {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 /*Contenedores*/
 
 .contenedor {
@@ -89,16 +94,18 @@ footer {
 }
 
 /*BEM*/
-.caja0{
-    background-color:dodgerblue ;
+.caja0 {
+    background-color: dodgerblue;
     color: white;
 }
-.caja0__parrafo{
+
+.caja0__parrafo {
     background-color: black;
     text-align: right;
 }
-.caja0__text{
-   text-align: center;
+
+.caja0__text {
+    text-align: center;
     font-size: 35px;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -108,56 +115,63 @@ footer {
 .caja1 {
     background-color: black;
 }
-.caja__text{
+
+.caja__text {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
 
-.caja2{
+.caja2 {
     background-color: dodgerblue;
 }
 
-.caja2__zoom{
+.caja2__zoom {
     transition: 2s;
-  }
-.caja2__zoom:hover {  
-  transform: scale(1.2);
-  }
-  
-.caja2__text{
+}
+
+.caja2__zoom:hover {
+    transform: scale(1.2);
+}
+
+.caja2__text {
     text-align: center;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
-.caja2__bordes{
+
+.caja2__bordes {
     border: 1px solid red
 }
 
-.caja2__parrafo{
-font-size: 20px;
-font-family: cursive;
-color: white;
-margin-top: 20px;
-text-align: center;
+.caja2__parrafo {
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
 }
-.caja3{
-background-color: dodgerblue;
+
+.caja3 {
+    background-color: dodgerblue;
 }
-.caja3__tit{
-    background-color:dodgerblue ;
-    color: white;}
-    
-.zapataFreno{
+
+.caja3__tit {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.zapataFreno {
     display: flex;
     justify-content: space-around;
 }
 
-.footer{
+.footer {
     background-color: black;
 }
-.footer__tit{
+
+.footer__tit {
     background-color: dodgerblue;
     text-align: center;
     font-size: 34px;
@@ -170,38 +184,61 @@ background-color: dodgerblue;
     flex-wrap: wrap;
     text-align: center;
 }
-.footer__margen{
- margin-top: 800px;
+
+.footer__margen {
+    margin-top: 800px;
 }
+
 /* Esta media sera utilizada para la medida 1024px */
 @media only screen and (max-width: 1024px) {
-.formu{
-    display: block;  
+    .formu {
+        display: block;
+    }
+
+    .maps {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .flexImg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .imgMoto {
+        width: 1000px;
+    }
 }
 
-.maps{
-    padding-top: 50px;
-    text-align: center;
-}
-.flexImg{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-};
-  }
+/* Esta media sera utilizada para la medida 768px*/
+@media only screen and (max-width: 768px) {
+    .imgMoto {
+        width: 700px;
+    }
 
+}
 
 /* Esta media sera utilizada para la medida 578px*/
-@media only screen and (max-width: 578px){
-.icono{
-    width: 60px;   
-}
-.imgMoto{
-    width: 550px;
-}
-.mapsConsulta{
-   width: 500px;}
-.menu{
-    display: block;
-}
+@media only screen and (max-width: 578px) {
+    .icono {
+        width: 60px;
+    }
+
+    .imgMoto {
+        width: 550px;
+    }
+
+    .mapsConsulta {
+        width: 500px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .zapataFreno {
+        display: block;
+
+    }
 }

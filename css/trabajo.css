@@ -157,7 +157,14 @@ footer {
   .flexImg {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  .imgMoto {
+    width: 1000px; } }
+
+/* Esta media sera utilizada para la medida 768px*/
+@media only screen and (max-width: 768px) {
+  .imgMoto {
+    width: 700px; } }
 
 /* Esta media sera utilizada para la medida 578px*/
 @media only screen and (max-width: 578px) {
@@ -168,4 +175,6 @@ footer {
   .mapsConsulta {
     width: 500px; }
   .menu {
+    display: block; }
+  .zapataFreno {
     display: block; } }
