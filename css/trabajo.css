@@ -125,6 +125,10 @@ footer {
   background-color: dodgerblue;
   color: white; }
 
+.zapataFreno {
+  display: flex;
+  justify-content: space-around; }
+
 .footer {
   background-color: black; }
 
