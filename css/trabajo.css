@@ -52,6 +52,15 @@ footer {
   font-style: italic;
   color: cyan; }
 
+.maps {
+  padding-top: 50px;
+  text-align: center; }
+
+.flexImg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
 /*Contenedores*/
 .contenedor {
   display: flex;
@@ -106,7 +115,8 @@ footer {
   font-size: 20px;
   font-family: cursive;
   color: white;
-  margin-top: 20px; }
+  margin-top: 20px;
+  text-align: center; }
 
 .caja3 {
   background-color: dodgerblue; }
@@ -132,3 +142,26 @@ footer {
 
 .footer__margen {
   margin-top: 800px; }
+
+/* Esta media sera utilizada para la medida 1024px */
+@media only screen and (max-width: 1024px) {
+  .formu {
+    display: block; }
+  .maps {
+    padding-top: 50px;
+    text-align: center; }
+  .flexImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; } }
+
+/* Esta media sera utilizada para la medida 578px*/
+@media only screen and (max-width: 578px) {
+  .icono {
+    width: 60px; }
+  .imgMoto {
+    width: 550px; }
+  .mapsConsulta {
+    width: 500px; }
+  .menu {
+    display: block; } }
